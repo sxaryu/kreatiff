@@ -1,0 +1,165 @@
+БРЭНДБУК для сообщества "КРЕАТИFF":
+
+Описание сообщество из VK:
+Творческая студия Креатиff- студенческое объединение Красноярского колледжа радиоэлектроники и информационных технологий, основанное на общности интересов в сфере изучения английского языка и творческой деятельности. Студия основана в 2020 году.
+Студенты творческой студии под руководством преподавателей английского языка принимают участие:
+- в различных конкурсах, конференциях, олимпиадах по английскому языку;
+- участвуют в мероприятиях, связанных с культурой народа, изучаемого и родного языков;
+- участвуют в постановке спектаклей, сценок, песенных номеров, чтения стихов, как на английском, так и на русском языках;
+- участвуют в мероприятиях, направленных на осуществление проектной и научно-исследовательской деятельности.
+
+Цвета
+
+Фон(Основные цвета):
+1 — ("Пастельный оранжевый"): #ff794a
+2 — ("Лёгкий зеленовато жёлтый"): #f4de24
+3 — ("Лёгкий зелёный, лёгкий лаймовый"): #aaec3f
+4 — ("Синеватый с добавлением серого и зеленного"):  #9ad9d0
+
+Цвет для шрифтов:
+Универсальный цвет шрифта для всех цветов:
+#0a0a0f 
+1 — : #401c39 (Контрастность:  5.60:1)
+2 — : #15151a (Контрастность: 13.28:1)
+3 — : #0719f3 (Контрастность:  5.60:1)
+4 — : #9e0210 (Контрастность:  5.35:1 )
+
+Дополнительные цвета к основным:
+1 — ("Тёплый персиковый"): #ffb28a
+*Сочетание с цветом шрифта для основного цвета 1: Контрастность: 8.31:1
+2 — ("Соломенно-жёлтый"): #f8e87b
+*Сочетание с цветом шрифта для основного цвета 2: Контрастность: 14.57:1
+3 — ("Свежая мята"): #c5f576
+*Сочетание с цветом шрифта для основного цвета 3: Контрастность: 6.84:1
+4 — ("Мягкий бирюзовый"): #b5e8e0
+*Сочетание с цветом шрифта для основного цвета 4: Контрастность: 6.31:1
+
+
+Типы шрифтов
+1. Bounded — Для заголовков
+2. IBM Plex Sans — Для основного текста
+3. Inter — Дополнительный шрифт
+*(Можно использовать:
+   1. Как шрифт для основного текста;
+   2.  Как дополнительный шрифт к шрифту основному текста "")
+
+Шрифты находятся в каталоге "Fonts":
+1. Шрифт "Bounded" находится в архиве "Title_font_is_Bounded.zip"
+2. Шрифт "IBM Plex" находится в архиве "Main_font_is_IBM_Plex.zip"
+3. Шрифт "Inter" находится в архиве "Additional_font_is_Inter.zip"
+
+Справка по шрифтам:
+Все шрифты бесплатны для коммерческого и личного пользования.
+
+Директория БРЭНДБУКА со всеми подкаталогами:
+C:.
+│   COPYRIGHT.txt
+│   info.txt
+│   Пресс-материалы - Логотипы.pdf
+│   Пресс-материалы - Символы шрифтов.pdf
+│   Пресс-материалы - Цвета.pdf
+│   Пресс-материалы - Шрифты.pdf
+│   Пресс-материалы- Значение цветов.pdf
+│   Справка по использованию.pdf
+│
+├───Fonts
+│       Additional_font_is_Inter.zip
+│       Main_font_is_IBM_Plex.zip
+│       Title_font_is_Bounded.zip
+│
+├───For SocialNets
+│       Banner.png
+│       Icon_avatar.png
+│
+├───Logos
+│   │   Block_logo.svg
+│   │   Block_logo_PNG.png
+│   │   Horizontal_logo.svg
+│   │   Horizontal_logo_PNG.png
+│   │   Simple_logo.svg
+│   │   Simple_logo_PNG.png
+│   │
+│   ├───Dark Text
+│   │       Block_logo_DarkText.svg
+│   │       Block_logo_DarkText_PNG.png
+│   │       Horizontal_logo_DarkText.svg
+│   │       Horizontal_logo_DarkText_PNG.png
+│   │
+│   ├───Dark-Monochrome version
+│   │   │   Block_logo.svg
+│   │   │   Block_logo_PNG.png
+│   │   │   Horizontal_logo.svg
+│   │   │   Horizontal_logo_PNG.png
+│   │   │   Simple_logo.svg
+│   │   │   Simple_logo_PNG.png
+│   │   │
+│   │   └───Dark text
+│   │           Block_logo_DarkText.svg
+│   │           Block_logo_DarkText_PNG.png
+│   │           Horizontal_logo_DarkText.svg
+│   │           Horizontal_logo_DarkText_PNG.png
+│   │
+│   └───White-Monochrome version
+│       │   Block_logo.svg
+│       │   Block_logo_PNG.png
+│       │   Horizontal_logo.svg
+│       │   Horizontal_logo_PNG.png
+│       │   Simple_logo.svg
+│       │   Simple_logo_PNG.png
+│       │
+│       └───White text
+│               Block_logo_WhiteText.svg
+│               Block_logo_WhiteText_PNG.png
+│               Horizontal_logo_WhiteText.svg
+│               Horizontal_logo_WhiteText_PNG.png
+│
+├───Press-materials PNG
+│       Colors Samples - Present.png
+│       Colors Samples - Value.png
+│       Fonts Characters - Present.png
+│       Fonts Present.png
+│       Logos Present.png
+│
+├───Sources
+│   │   Project_deweloped_Logo.svg
+│   │   Project_deweloped_SocialNet.svg
+│   │
+│   ├───Color samples
+│   │       additional_color1.png
+│   │       additional_color2.png
+│   │       additional_color3.png
+│   │       additional_color4.png
+│   │       font_color1.png
+│   │       font_color2.png
+│   │       font_color3.png
+│   │       font_color4.png
+│   │       font_universal_color.png
+│   │       FullPallete_Colors.png
+│   │       FullPallete_Colors.svg
+│   │       FullPallete_Colors_JPEG.jpg
+│   │       main_color1.png
+│   │       main_color2.png
+│   │       main_color3.png
+│   │       main_color4.png
+│   │
+│   └───Press-materials source
+│           Project_presenets_Colors_samples.svg
+│           Project_presenets_Colors_Value.svg
+│           Project_presenets_Fonts.svg
+│           Project_presenets_Fonts_Characters.svg
+│           Project_presenets_Logos.svg
+│           Справка по использованию.docx
+│
+└───Wallpapers
+        Wallpaper1_for_SmartPhone.png
+        Wallpaper2_for_Desktop.png
+        WallpaperSimpleLogo0_for_Desktop.png
+        WallpaperSimpleLogo0_for_SmartPhone.png
+        WallpaperSimpleLogo1_1_for_Desktop.png
+        WallpaperSimpleLogo1_1_for_SmartPhone.png
+        WallpaperSimpleLogo1_for_Desktop.png
+        WallpaperSimpleLogo1_for_SmartPhone.png
+        WallpaperSimpleLogo2_2_for_Desktop.png
+        WallpaperSimpleLogo2_2_for_SmartPhone.png
+        WallpaperSimpleLogo2_for_Desktop.png
+        WallpaperSimpleLogo2_for_SmartPhone.png
