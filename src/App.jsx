@@ -253,7 +253,8 @@ export default function App() {
               className="btn-primary-action"
               onClick={() => setIsCreatePostOpen(true)}
             >
-              + Добавить пост
+              <span className="btn-action-text-full">+ Добавить пост</span>
+              <span className="btn-action-text-short">+ Пост</span>
             </button>
 
             <button

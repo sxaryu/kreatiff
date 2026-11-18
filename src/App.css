@@ -3,6 +3,12 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.btn-action-text-short {
+  display: none;
 }
 
 /* Header */
@@ -963,19 +969,188 @@
 }
 
 @media (max-width: 768px) {
+  .portal-header {
+    padding: 10px 0;
+  }
+  .portal-header-inner {
+    gap: 12px;
+  }
+  .portal-brand {
+    min-width: 0;
+  }
+  .portal-logo {
+    height: 30px;
+    max-width: 130px;
+    object-fit: contain;
+  }
   .portal-nav {
     display: none;
   }
-  .posts-grid, .stickers-grid {
-    grid-template-columns: 1fr;
+  .header-action-group {
+    flex-shrink: 0;
+    gap: 8px;
+  }
+  .btn-primary-action {
+    padding: 7px 12px;
+    font-size: 0.8rem;
+  }
+  .theme-toggle-btn {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+  }
+
+  /* Hero & Lead */
+  .hero-editorial-section {
+    padding: 20px 0 16px;
+  }
+  .lead-card {
+    border-radius: 14px;
+  }
+  .lead-card-media {
+    height: 200px;
+  }
+  .lead-card-body {
+    padding: 16px;
+  }
+  .lead-card-title {
+    font-size: 1.25rem;
+    line-height: 1.25;
+    margin-bottom: 8px;
+  }
+  .lead-card-lead {
+    font-size: 0.88rem;
+    line-height: 1.5;
+    margin-bottom: 14px;
+  }
+  .lead-card-footer {
+    padding-top: 10px;
+    font-size: 0.8rem;
+  }
+
+  /* Vibe & Slang */
+  .vibe-section {
+    padding: 24px 0;
+  }
+  .vibe-box {
+    padding: 18px 14px;
+    border-radius: 14px;
+  }
+  .vibe-title {
+    font-size: 1.25rem;
+  }
+  .vibe-active-card {
+    padding: 14px 14px;
+  }
+  .vibe-term-row {
+    flex-wrap: wrap;
+    gap: 4px 10px;
+  }
+  .vibe-term-name {
+    font-size: 1.25rem;
+  }
+  .vibe-term-translation {
+    font-size: 0.94rem;
+  }
+  .vibe-term-example {
+    font-size: 0.86rem;
+    padding: 9px 12px;
+  }
+  .vibe-term-note {
+    font-size: 0.82rem;
+  }
+
+  /* Posts & Filter */
+  .section-title {
+    font-size: 1.45rem;
   }
   .filter-toolbar {
     flex-direction: column;
     align-items: stretch;
+    gap: 12px;
+  }
+  .rubric-tabs {
+    gap: 6px;
+  }
+  .rubric-tab-btn {
+    padding: 6px 11px;
+    font-size: 0.8rem;
   }
   .search-box {
     width: 100%;
+    min-width: 0;
   }
+  .posts-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .post-card {
+    border-radius: 12px;
+  }
+  .post-card-body {
+    padding: 14px;
+  }
+  .post-card-title {
+    font-size: 1.05rem;
+  }
+
+  /* Flipchart */
+  .flipchart-section {
+    padding: 24px 0;
+  }
+  .flipchart-board {
+    padding: 18px 14px;
+    border-radius: 14px;
+  }
+  .flipchart-header {
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .stickers-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .sticker-card {
+    padding: 14px;
+    min-height: 120px;
+  }
+
+  /* Modals */
+  .modal-overlay {
+    padding: 12px;
+  }
+  .modal-dialog {
+    border-radius: 14px;
+    max-height: 94vh;
+  }
+  .modal-header {
+    padding: 14px 16px 12px;
+  }
+  .modal-title {
+    font-size: 1.15rem;
+  }
+  .modal-content {
+    padding: 14px 16px;
+  }
+  .modal-footer {
+    padding: 10px 16px;
+  }
+  .article-modal-img {
+    height: 170px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+  }
+  .article-modal-lead {
+    font-size: 0.92rem;
+    padding-left: 10px;
+    margin-bottom: 12px;
+  }
+  .article-modal-text {
+    font-size: 0.88rem;
+    margin-bottom: 16px;
+  }
+
+  /* Footer */
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 24px;
@@ -984,5 +1159,28 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn-action-text-full {
+    display: none;
+  }
+  .btn-action-text-short {
+    display: inline;
+  }
+  .portal-logo {
+    height: 25px;
+    max-width: 105px;
+  }
+  .btn-primary-action {
+    padding: 6px 10px;
+    font-size: 0.76rem;
+  }
+  .lead-card-media {
+    height: 160px;
+  }
+  .lead-card-title {
+    font-size: 1.15rem;
   }
 }
